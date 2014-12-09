@@ -1,6 +1,5 @@
 import 'dart:io';
 
-
 void main() {
   var portEnv = Platform.environment['PORT'];
   var port = portEnv == null ? 9090 : int.parse(portEnv);
